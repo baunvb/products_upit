@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Booking from './product/bikerental/Booking';
-
+import Booking from './product/bikerental/screen/Booking';
+import { Provider } from "react-redux";
+import { createStore } from "redux";
 
 function App() {
   return (

@@ -157,6 +157,7 @@ function SectionInfo(props) {
                   type: BikeRentalAction.ACTION_SET_LOCATION.NAME,
                   data: { address: places.formatted_address, name: places.name, location: places.geometry.location }
                 })
+                setDisplayLocationPopup(false)
               });
             }
             }
